@@ -19,21 +19,13 @@
 
 | Week | Section | Chapter |
 | --- | --- | --- |
-| 1주차 (4/26 ~ 5/3) | Section I: Introduction to Combine | Chapter 1: Hello, Combine!
-Chapter 2: Publishers & Subscribers |
-| 2주차 (5/4 ~ 5/10) | Section II: Operators | Chapter 3: Transforming Operators
-Chapter 4: Filtering Operators |
-| 3주차 (5/11 ~ 5/17) |  | Chapter 3: Transforming Operators
-Chapter 4: Filtering Operators |
-| 4주차 (5/18 ~ 5/24) |  | Chapter 5: Combining Operators
-Chapter 6: Time Manipulation Operators |
-| 5주차 (5/25 ~ 5/31) |  | Chapter 7: Sequence Operators
-Chapter 8: In Practice: Project "Collage” |
-| 6주차 (6/1 ~ 6/7) | Section III: Combine in Action | Chapter 9: Networking
-Chapter 10: Debugging |
-| 7주차 (6/8 ~ 6/14) |  | Chapter 11: Timers
-Chapter 12: Key-Value Observing |
-| 8주차 (6/15 ~ 6/21) |  | Chapter 13: Resource Management
-Chapter 14: In Practice: Project "News” |
+| 1주차 (4/26 ~ 5/3) | Section I: Introduction to Combine | [Chapter 1: Hello, Combine!](./Combine%20Book/Chapter01.md)<br />Chapter 2: Publishers & Subscribers |
+| 2주차 (5/4 ~ 5/10) | Section II: Operators | Chapter 3: Transforming Operators <br />Chapter 4: Filtering Operators |
+| 3주차 (5/11 ~ 5/17) |  | Chapter 3: Transforming Operators <br />Chapter 4: Filtering Operators |
+| 4주차 (5/18 ~ 5/24) |  | Chapter 5: Combining Operators <br />Chapter 6: Time Manipulation Operators |
+| 5주차 (5/25 ~ 5/31) |  | Chapter 7: Sequence Operators<br />Chapter 8: In Practice: Project "Collage” |
+| 6주차 (6/1 ~ 6/7) | Section III: Combine in Action | Chapter 9: Networking <br />Chapter 10: Debugging |
+| 7주차 (6/8 ~ 6/14) |  | Chapter 11: Timers <br />Chapter 12: Key-Value Observing |
+| 8주차 (6/15 ~ 6/21) |  | Chapter 13: Resource Management <br />Chapter 14: In Practice: Project "News” |
 | 9주차 (6/22 ~ 6/28) |  |  |
 |  |  |  |
