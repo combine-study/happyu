@@ -19,7 +19,7 @@
 
 | Week | Section | Chapter |
 | --- | --- | --- |
-| 1주차 (4/26 ~ 5/3) | Section I: Introduction to Combine | [Chapter 1: Hello, Combine!](./chapter01/Chapter01.md)<br />Chapter 2: Publishers & Subscribers |
+| 1주차 (4/26 ~ 5/3) | Section I: Introduction to Combine | [Chapter 1: Hello, Combine!](./chapter01/Chapter01.md)<br />[Chapter 2: Publishers & Subscribers](./chapter02/chapter02.md) |
 | 2주차 (5/4 ~ 5/10) | Section II: Operators | Chapter 3: Transforming Operators <br />Chapter 4: Filtering Operators |
 | 3주차 (5/11 ~ 5/17) |  | Chapter 3: Transforming Operators <br />Chapter 4: Filtering Operators |
 | 4주차 (5/18 ~ 5/24) |  | Chapter 5: Combining Operators <br />Chapter 6: Time Manipulation Operators |
