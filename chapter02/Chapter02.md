@@ -731,3 +731,36 @@ AnyPublisher에는 send(_:) 연산자가 없으므로 새 값을 추가할 수 �
 ## Bridging Combine publishers to async/await
 
 Future 및 Publisher를 준수하는 모든 유형에서 사용가능
+
+```swift
+example(of: "async/await") {
+    let publisher = (1...3).publisher.delay(for: 2, scheduler: DispatchQueue.global())
+    Task { // 새로운 비동기 작업을 생성합니다
+        for await element in publisher.values { // 비동기 시퀀스를 반복
+            print("Element: \(element)")
+        }
+        print("Completed.")
+    }
+}
+```
+
+```swift
+——— Example of: async/await ———
+Element: 1
+Element: 2
+Element: 3
+Completed.
+```
+
+## 정리
+
+- `publisher`는 시간이 지남에 따라 값 시퀀스를 동기 또는 비동기로 **한 명 이상의 구독자에게 전송**합니다.
+- 구독자는 publisher를 구독하여 값을 받을 수 있습니다. 그러나 구독자의 입력 및 실패 유형은 publisher의 출력 및 실패 유형과 일치해야 합니다.
+- publisher를 구독하는 데 사용할 수 있는 **기본 제공 연산자**는 `sink(_:_:)` 및 `assign(to:on:)`입니다.
+- 구독자는 값을 받을 때마다 **값에 대한 수요를 늘릴 수 있지만 수요를 줄일 수는 없습니다.**
+- 리소스를 확보하고 원치 않는 부작용을 방지하려면 완료되면 각 구독을 취소하십시오.
+- 또한 **초기화 취소 시 자동 취소를 수신하도록 AnyCancellable의 인스턴스 또는 컬렉션에 구독을 저장**할 수 있습니다.
+- future를 사용하여 나중에 비동기적으로 단일 값을 받습니다.
+- `Subjects`는 외부 호출자가 시작 값을 포함하거나 포함하지 않고 **구독자에게 여러 값을 비동기적으로 보낼 수 있도록 하는 게시자**입니다.
+- Type erasure는 호출자가 기본 유형의 추가 세부 정보에 액세스할 수 없도록 합니다.
+- print() 연산자를 사용하여 모든 게시 이벤트를 콘솔에 기록하고 진행 상황을 확인할 수 있습니다.
