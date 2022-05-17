@@ -37,7 +37,7 @@
 | --- | --- | --- |
 | 1주차 (4/26 ~ 5/3) | Section I: Introduction to Combine | [Chapter 1: Hello, Combine!](./chapter01/Chapter01.md)<br />[Chapter 2: Publishers & Subscribers](./chapter02/Chapter02.md) |
 | 2주차 (5/4 ~ 5/10) | Section II: Operators | [Chapter 3: Transforming Operators](./chapter03/Chapter03.md) |
-| 3주차 (5/11 ~ 5/17) |  | Chapter 4: Filtering Operators |
+| 3주차 (5/11 ~ 5/17) |  | [Chapter 4: Filtering Operators](./chapter04/Chapter04.md) |
 | 4주차 (5/18 ~ 5/24) |  | Chapter 5: Combining Operators |
 | 5주차 (5/25 ~ 5/31) |  | Chapter 6: Time Manipulation Operators |
 | 6주차 (6/1 ~ 6/7) | Section III: Combine in Action | Chapter 7: Sequence Operators |
